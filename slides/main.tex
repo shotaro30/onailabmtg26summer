@@ -448,6 +448,12 @@
 \begin{tikzpicture}[remember picture,overlay]
  \node[inner sep=0] at (current page.center) {%
   \includegraphics[height=\paperheight]{assets/poster-oita-hub.png}};
+ \node[anchor=east,rounded corners=1.8mm,fill=Ink,text=white,
+  inner xsep=2.3mm,inner ysep=3mm,font=\fontsize{6.5}{8}\selectfont]
+  at ([xshift=-2.5mm]current page.east) {%
+   \shortstack{この資料も\\[1mm]
+    \textcolor{Gold}{\bfseries Beamer × Codex}\\[1mm]
+    で作りました}};
 \end{tikzpicture}
 \end{frame}
 
