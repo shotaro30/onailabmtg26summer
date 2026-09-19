@@ -1,0 +1,7 @@
+build/
+.venv/
+qa-*/
+/talk.pdf
+/talk-*.png
+/main-before-*.tex
+/structure-v[2-6]*.md
