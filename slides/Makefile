@@ -4,7 +4,7 @@ VENV_STAMP := .venv/.richmedia-ready
 
 all: $(VENV_STAMP)
 	latexmk -lualatex -interaction=nonstopmode -halt-on-error -outdir=build main.tex
-	$(PYTHON) scripts/embed_richmedia.py build/main.pdf talk.pdf buildabstract-demo-1min.mp4 --page 11
+	$(PYTHON) scripts/embed_richmedia.py build/main.pdf talk.pdf buildabstract-demo-1min.mp4 --page 12
 	mkdir -p presentation
 	cp talk.pdf buildabstract-demo-1min.mp4 presentation/
 

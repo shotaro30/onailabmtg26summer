@@ -197,7 +197,7 @@ def main() -> None:
     parser.add_argument("input_pdf", type=Path)
     parser.add_argument("output_pdf", type=Path)
     parser.add_argument("video", type=Path)
-    parser.add_argument("--page", type=int, default=11)
+    parser.add_argument("--page", type=int, default=12)
     args = parser.parse_args()
     embed_video(args.input_pdf, args.output_pdf, args.video, args.page)
 
